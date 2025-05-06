@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="5Ke0QUZCDBe-Ktb9wZkN">
-    <mxGraphModel>
+    <mxGraphModel dx="1257" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-1" value="keycloak data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-2" value="- user&lt;div&gt;- orgs&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="190" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-3" value="permissions database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-4" value="- everything else&lt;div&gt;- permissions&lt;/div&gt;&lt;div&gt;- roles&lt;/div&gt;&lt;div&gt;- entities&lt;/div&gt;&lt;div&gt;- etc.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="190" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-6" value="Keycloak event listener&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="300" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-7" value="database triggers and webhook integration&lt;div&gt;primsa middleware&lt;/div&gt;&lt;div&gt;&lt;div&gt;api middleware&amp;nbsp;&lt;/div&gt;&lt;div&gt;nestjs event-based approach use event emitter&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="280" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cUvdKsv-xoR603ZvNUyB-9" value="scheduled sync?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
